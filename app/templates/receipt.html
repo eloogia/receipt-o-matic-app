@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{ r['merchant'] or 'Recibo' }} · Receipt-o-Matic{% endblock %}
+{% block body %}
+{% if request.query_params.get('ok') %}<p class="aviso ok">Cambios guardados.</p>{% endif %}
+{% if nuevo %}<p class="aviso">Recibo leído. Revisa que todo esté bien y corrige lo que haga falta.</p>{% endif %}
+
+<section class="card resumen">
+  <div class="fila-top">
+    <div>
+      <h1>{{ r['merchant'] or 'Comercio sin leer' }}</h1>
+      <p class="muted">{{ r['date'] or 'Fecha sin leer' }} · <b>{{ r['category'] }}</b></p>
+    </div>
+    <div class="der"><p class="kpi sm">{{ r['total']|money }}</p>
+      <span class="pill {{ 'ok' if st.estado == 'Cuadra' else 'warn' }}">{{ st.estado }}</span></div>
+  </div>
+  <p class="small {{ 'okt' if st.estado == 'Cuadra' else 'warnt' }}">
+    Líneas + impuestos = {{ st.suma|money }}{% if st.diff is not none %} · Total del recibo {{ r['total']|money }} · Diferencia {{ st.diff|money }}{% else %} · No se leyó el total{% endif %}
+  </p>
+  {% if st.estado != 'Cuadra' %}<p class="small muted">No cuadra: puede faltar una línea, un precio mal leído o el total. Corrígelo abajo; nunca ajustamos el total por ti.</p>{% endif %}
+</section>
+
+<details class="card foto">
+  <summary>Ver foto del recibo</summary>
+  <a href="/recibo/{{ r['id'] }}/foto" target="_blank"><img src="/recibo/{{ r['id'] }}/foto" alt="Foto del recibo" loading="lazy"></a>
+</details>
+
+<form method="post" action="/recibo/{{ r['id'] }}/guardar" class="card form editar">
+  <h2>Datos del recibo</h2>
+  <div class="grid2">
+    <label>Comercio<input name="merchant" value="{{ r['merchant'] or '' }}"></label>
+    <label>Fecha<input name="date" type="date" value="{{ r['date'] or '' }}"></label>
+    <label>Total<input name="total" inputmode="decimal" value="{{ '%.2f'|format(r['total']) if r['total'] is not none else '' }}"></label>
+    <label>TPS<input name="tps" inputmode="decimal" value="{{ '%.2f'|format(r['tps']) if r['tps'] is not none else '' }}"></label>
+    <label>TVQ<input name="tvq" inputmode="decimal" value="{{ '%.2f'|format(r['tvq']) if r['tvq'] is not none else '' }}"></label>
+  </div>
+
+  <h2>Productos ({{ lines|length }})</h2>
+  <datalist id="cats">{% for c in cats %}<option value="{{ c }}">{% endfor %}</datalist>
+  {% for l in lines %}
+  <div class="linea {{ 'flag' if l['category'] == 'Sin identificar' }}">
+    <input type="hidden" name="line_id" value="{{ l['id'] }}">
+    <input class="nom" name="line_name" value="{{ l['name'] }}" aria-label="Producto">
+    <input class="pre" name="line_price" inputmode="decimal" value="{{ '%.2f'|format(l['price']) if l['price'] is not none else '' }}" aria-label="Precio">
+    <input class="cat" name="line_cat" list="cats" value="{{ l['category'] }}" aria-label="Categoría">
+    <label class="del"><input type="checkbox" name="line_del" value="{{ l['id'] }}"> quitar</label>
+    {% if l['category'] == 'Sin identificar' %}<span class="pill warn">Revisar</span>{% endif %}
+  </div>
+  {% endfor %}
+  {% for i in range(2) %}
+  <div class="linea nueva">
+    <input type="hidden" name="line_id" value="new{{ i }}">
+    <input class="nom" name="line_name" placeholder="Agregar producto">
+    <input class="pre" name="line_price" inputmode="decimal" placeholder="0,00">
+    <input class="cat" name="line_cat" list="cats" placeholder="Categoría (vacío = automática)">
+  </div>
+  {% endfor %}
+  <p class="small muted">Si dejas la categoría vacía o cambias el nombre, se vuelve a categorizar con tu diccionario.</p>
+  <button class="btn primary big" type="submit">Guardar cambios</button>
+</form>
+
+<details class="card">
+  <summary>Texto leído (OCR)</summary>
+  <pre class="ocr">{{ r['ocr_text'] }}</pre>
+</details>
+
+<form method="post" action="/recibo/{{ r['id'] }}/borrar" onsubmit="return confirm('¿Borrar este recibo y su foto?')" class="center">
+  <button class="btn link danger" type="submit">Borrar recibo</button>
+</form>
+{% endblock %}

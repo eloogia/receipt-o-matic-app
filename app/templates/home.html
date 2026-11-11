@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block body %}
+<section class="card hero">
+  <p class="hola">Hola{% if user['name'] %}, {{ user['name'] }}{% endif %} 👋</p>
+  <p class="muted">Gastado en {{ mes_actual|mes }}</p>
+  <p class="kpi">{{ (tot_mes or 0)|money }}</p>
+</section>
+
+<form id="subir" method="post" action="/subir" enctype="multipart/form-data">
+  <label class="btn primary camara">
+    <span class="ico">📷</span> Tomar foto
+    <input type="file" name="foto" accept="image/*" capture="environment" hidden>
+  </label>
+  <label class="btn secondary">
+    <span class="ico">🖼️</span> Elegir de la galería
+    <input type="file" name="foto" accept="image/*" hidden>
+  </label>
+  <p class="muted small center">Consejo: recibo plano, con buena luz y que salga entero.</p>
+</form>
+
+<h2>Últimos recibos</h2>
+{% if not recibos %}<p class="muted card">Todavía no tienes recibos. ¡Toma la primera foto!</p>{% endif %}
+<ul class="lista">
+{% for r, st in recibos %}
+  <li><a href="/recibo/{{ r['id'] }}" class="fila">
+    <div><strong>{{ r['merchant'] or 'Comercio sin leer' }}</strong>
+      <span class="muted small">{{ r['date'] or 'sin fecha' }} · {{ r['category'] }}</span></div>
+    <div class="der"><strong>{{ r['total']|money }}</strong>
+      <span class="pill {{ 'ok' if st.estado == 'Cuadra' else 'warn' }}">{{ st.estado }}</span></div>
+  </a></li>
+{% endfor %}
+</ul>
+{% endblock %}

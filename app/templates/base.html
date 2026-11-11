@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#7A4E2D">
+<title>{% block title %}Receipt-o-Matic{% endblock %}</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/static/icon-192.png">
+<link rel="apple-touch-icon" href="/static/icon-192.png">
+<link rel="stylesheet" href="/static/style.css?v=3">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/"><span class="logo">🧾</span> Receipt-o-Matic</a>
+  {% if user %}<a class="salir" href="/salir">Salir</a>{% endif %}
+</header>
+<main>{% block body %}{% endblock %}</main>
+{% if user %}
+<nav class="tabs">
+  <a href="/" class="{{ 'on' if request.url.path == '/' }}"><span>📷</span>Subir</a>
+  <a href="/tablero" class="{{ 'on' if request.url.path.startswith('/tablero') }}"><span>📊</span>Tablero</a>
+</nav>
+{% endif %}
+<div id="cargando" class="cargando" hidden><div class="spinner"></div><p>Leyendo tu recibo…<br><small>Puede tardar unos segundos</small></p></div>
+<script src="/static/app.js?v=3"></script>
+</body>
+</html>

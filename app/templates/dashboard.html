@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Tablero · Receipt-o-Matic{% endblock %}
+{% block body %}
+<h1>Tu tablero</h1>
+
+<section class="card">
+  <h2>Gasto por mes</h2>
+  {% if not meses %}<p class="muted">Sin datos todavía.</p>{% endif %}
+  {% for m in meses %}
+  <a class="barra {{ 'sel' if m['ym'] == mes_sel }}" href="/tablero?mes_sel={{ m['ym'] }}">
+    <span class="et">{{ m['ym']|mes }} <small class="muted">({{ m['n'] }})</small></span>
+    <span class="track"><span class="fill mes" style="width: {{ ((m['t'] or 0) / maxm * 100)|round(1) }}%"></span></span>
+    <span class="val">{{ (m['t'] or 0)|money }}</span>
+  </a>
+  {% endfor %}
+</section>
+
+<section class="card">
+  <h2>Por categoría {% if mes_sel %}· {{ mes_sel|mes }} <a class="small" href="/tablero">(ver todo)</a>{% endif %}</h2>
+  {% for c in cats %}
+  <div class="barra">
+    <span class="et">{{ c.cat }}</span>
+    <span class="track"><span class="fill {{ 'gris' if c.cat == 'Sin identificar' }}" style="width: {{ (c.t / maxc * 100)|round(1) if c.t > 0 else 0 }}%"></span></span>
+    <span class="val">{{ c.t|money }}</span>
+  </div>
+  {% endfor %}
+</section>
+
+<h2>Recibos</h2>
+<ul class="lista">
+{% for r, st in recibos %}
+  <li><a href="/recibo/{{ r['id'] }}" class="fila">
+    <img class="mini" src="/recibo/{{ r['id'] }}/foto" alt="" loading="lazy">
+    <div><strong>{{ r['merchant'] or 'Comercio sin leer' }}</strong>
+      <span class="muted small">{{ r['date'] or 'sin fecha' }} · {{ r['category'] }}</span></div>
+    <div class="der"><strong>{{ r['total']|money }}</strong>
+      <span class="pill {{ 'ok' if st.estado == 'Cuadra' else 'warn' }}">{{ st.estado }}</span></div>
+  </a></li>
+{% endfor %}
+</ul>
+<details class="card">
+  <summary>Mi cuenta</summary>
+  {% if request.query_params.get('err') %}<p class="error">Contraseña incorrecta.</p>{% endif %}
+  <p class="small muted">Borrar la cuenta elimina todos tus recibos y fotos. No se puede deshacer.</p>
+  <form method="post" action="/cuenta/borrar" class="form" onsubmit="return confirm('¿Borrar tu cuenta y todos tus recibos?')">
+    <label>Confirma tu contraseña<input name="password" type="password" required autocomplete="current-password"></label>
+    <button class="btn link danger" type="submit">Borrar mi cuenta</button>
+  </form>
+</details>
+{% endblock %}

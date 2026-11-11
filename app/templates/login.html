@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block body %}
+<section class="card hero">
+  <h1>{{ 'Bienvenido' if modo == 'entrar' else 'Crea tu cuenta' }}</h1>
+  <p class="muted">Toma una foto de tu recibo y te devolvemos el gasto ordenado por categoría.</p>
+  {% if request.query_params.get('borrada') %}<p class="aviso ok">Tu cuenta y tus recibos fueron borrados.</p>{% endif %}
+  {% if error %}<p class="error">{{ error }}</p>{% endif %}
+  <form method="post" action="/{{ modo }}" class="form">
+    {% if modo == 'registro' %}
+    <label>Nombre<input name="name" autocomplete="name" placeholder="Tu nombre"></label>
+    {% endif %}
+    <label>Correo<input name="email" type="email" required autocomplete="email" placeholder="tu@correo.com"></label>
+    <label>Contraseña<input name="password" type="password" required minlength="6" autocomplete="{{ 'current-password' if modo=='entrar' else 'new-password' }}"></label>
+    <button class="btn primary big" type="submit">{{ 'Entrar' if modo == 'entrar' else 'Crear cuenta' }}</button>
+  </form>
+  {% if modo == 'entrar' %}
+  <p class="center">¿No tienes cuenta? <a href="/registro">Regístrate</a></p>
+  {% else %}
+  <p class="center">¿Ya tienes cuenta? <a href="/entrar">Entra</a></p>
+  {% endif %}
+</section>
+<p class="center muted small">Prototipo. Tus recibos solo los ves tú.</p>
+{% endblock %}

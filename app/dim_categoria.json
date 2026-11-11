@@ -1,0 +1,2459 @@
+[
+ {
+  "PalabraClave": "HUI",
+  "CategoriaEstandar": "Aceite",
+  "Prioridad": 1,
+  "Familia": "Aceite",
+  "orden": 0
+ },
+ {
+  "PalabraClave": "HASS",
+  "CategoriaEstandar": "Aguacate",
+  "Prioridad": 1,
+  "Familia": "Aguacate",
+  "orden": 1
+ },
+ {
+  "PalabraClave": "CHILI",
+  "CategoriaEstandar": "Aji",
+  "Prioridad": 1,
+  "Familia": "Aji",
+  "orden": 2
+ },
+ {
+  "PalabraClave": "8490900032",
+  "CategoriaEstandar": "Aji",
+  "Prioridad": 1,
+  "Familia": "Aji",
+  "orden": 3
+ },
+ {
+  "PalabraClave": "AMANDES",
+  "CategoriaEstandar": "Almendras",
+  "Prioridad": 1,
+  "Familia": "Almendras",
+  "orden": 4
+ },
+ {
+  "PalabraClave": "RIZ",
+  "CategoriaEstandar": "Arroz",
+  "Prioridad": 1,
+  "Familia": "Arroz",
+  "orden": 5
+ },
+ {
+  "PalabraClave": "SAV",
+  "CategoriaEstandar": "Aseo cuerpo",
+  "Prioridad": 1,
+  "Familia": "Jabón",
+  "orden": 6
+ },
+ {
+  "PalabraClave": "RINCE-BOUCHE",
+  "CategoriaEstandar": "Aseo oral",
+  "Prioridad": 1,
+  "Familia": "Enjuague bucal",
+  "orden": 7
+ },
+ {
+  "PalabraClave": "BOUCHE",
+  "CategoriaEstandar": "Aseo oral",
+  "Prioridad": 1,
+  "Familia": "Enjuague bucal",
+  "orden": 8
+ },
+ {
+  "PalabraClave": "SUCRE",
+  "CategoriaEstandar": "Azucar",
+  "Prioridad": 1,
+  "Familia": "Azúcar",
+  "orden": 9
+ },
+ {
+  "PalabraClave": "BANANE",
+  "CategoriaEstandar": "Banano",
+  "Prioridad": 1,
+  "Familia": "Banano",
+  "orden": 10
+ },
+ {
+  "PalabraClave": "NESC",
+  "CategoriaEstandar": "Cafe",
+  "Prioridad": 1,
+  "Familia": "Café",
+  "orden": 11
+ },
+ {
+  "PalabraClave": "CREVETTE",
+  "CategoriaEstandar": "Camarones",
+  "Prioridad": 1,
+  "Familia": "Camarones",
+  "orden": 12
+ },
+ {
+  "PalabraClave": "VIANDE",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 3,
+  "Familia": "Carne sin detalle",
+  "orden": 13
+ },
+ {
+  "PalabraClave": "FLANC",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Res",
+  "orden": 14
+ },
+ {
+  "PalabraClave": "SURLONGE",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Res",
+  "orden": 15
+ },
+ {
+  "PalabraClave": "BOEUF",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Res",
+  "orden": 16
+ },
+ {
+  "PalabraClave": "BIFTECK",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 3,
+  "Familia": "Res",
+  "orden": 17
+ },
+ {
+  "PalabraClave": "ROTI",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "",
+  "orden": 18
+ },
+ {
+  "PalabraClave": "PORC",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 3,
+  "Familia": "Cerdo",
+  "orden": 19
+ },
+ {
+  "PalabraClave": "PLT",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Pollo",
+  "orden": 20
+ },
+ {
+  "PalabraClave": "OIGNON VERT",
+  "CategoriaEstandar": "Cebollin",
+  "Prioridad": 1,
+  "Familia": "Cebollin",
+  "orden": 21
+ },
+ {
+  "PalabraClave": "GRAN",
+  "CategoriaEstandar": "Cereal",
+  "Prioridad": 1,
+  "Familia": "Cereal",
+  "orden": 22
+ },
+ {
+  "PalabraClave": "BIERE",
+  "CategoriaEstandar": "Cerveza",
+  "Prioridad": 1,
+  "Familia": "Cerveza",
+  "orden": 23
+ },
+ {
+  "PalabraClave": "CORIANDRE",
+  "CategoriaEstandar": "Cilantro",
+  "Prioridad": 1,
+  "Familia": "Cilantro",
+  "orden": 24
+ },
+ {
+  "PalabraClave": "CHAUD",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Pollo asado",
+  "orden": 25
+ },
+ {
+  "PalabraClave": "POULET",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 3,
+  "Familia": "Pollo",
+  "orden": 26
+ },
+ {
+  "PalabraClave": "TIMBRE",
+  "CategoriaEstandar": "Correo",
+  "Prioridad": 1,
+  "Familia": "Correo",
+  "orden": 27
+ },
+ {
+  "PalabraClave": "NIVEA",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Cuidado piel",
+  "orden": 28
+ },
+ {
+  "PalabraClave": "OGX",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Champú",
+  "orden": 29
+ },
+ {
+  "PalabraClave": "Dépôt",
+  "CategoriaEstandar": "Deposito envases",
+  "Prioridad": 1,
+  "Familia": "Depósito envases",
+  "orden": 30
+ },
+ {
+  "PalabraClave": "Consigne",
+  "CategoriaEstandar": "Deposito envases",
+  "Prioridad": 1,
+  "Familia": "Depósito envases",
+  "orden": 31
+ },
+ {
+  "PalabraClave": "10010",
+  "CategoriaEstandar": "Deposito envases",
+  "Prioridad": 1,
+  "Familia": "Depósito envases",
+  "orden": 32
+ },
+ {
+  "PalabraClave": "BEIGNE",
+  "CategoriaEstandar": "Donas",
+  "Prioridad": 1,
+  "Familia": "Donas",
+  "orden": 33
+ },
+ {
+  "PalabraClave": "HERSHEY",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Chocolate",
+  "orden": 34
+ },
+ {
+  "PalabraClave": "SKITTLES",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Caramelos",
+  "orden": 35
+ },
+ {
+  "PalabraClave": "MARS",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Chocolate",
+  "orden": 36
+ },
+ {
+  "PalabraClave": "BONBON",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Caramelos",
+  "orden": 37
+ },
+ {
+  "PalabraClave": "CHOC",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Chocolate",
+  "orden": 38
+ },
+ {
+  "PalabraClave": "BCROCK",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Caramelos",
+  "orden": 39
+ },
+ {
+  "PalabraClave": "KOOLA",
+  "CategoriaEstandar": "Edulcorante",
+  "Prioridad": 1,
+  "Familia": "Edulcorante",
+  "orden": 40
+ },
+ {
+  "PalabraClave": "CROUST",
+  "CategoriaEstandar": "Frituras",
+  "Prioridad": 1,
+  "Familia": "Frituras",
+  "orden": 41
+ },
+ {
+  "PalabraClave": "CROUSTILLES",
+  "CategoriaEstandar": "Frituras",
+  "Prioridad": 1,
+  "Familia": "Frituras",
+  "orden": 42
+ },
+ {
+  "PalabraClave": "ONDULEES",
+  "CategoriaEstandar": "Frituras",
+  "Prioridad": 1,
+  "Familia": "Frituras",
+  "orden": 43
+ },
+ {
+  "PalabraClave": "DORIT",
+  "CategoriaEstandar": "Frituras",
+  "Prioridad": 1,
+  "Familia": "Frituras",
+  "orden": 44
+ },
+ {
+  "PalabraClave": "GOLDENRING",
+  "CategoriaEstandar": "Galletas",
+  "Prioridad": 1,
+  "Familia": "Galletas",
+  "orden": 45
+ },
+ {
+  "PalabraClave": "DVON",
+  "CategoriaEstandar": "Galletas",
+  "Prioridad": 1,
+  "Familia": "Galletas",
+  "orden": 46
+ },
+ {
+  "PalabraClave": "DUCALES",
+  "CategoriaEstandar": "Galletas",
+  "Prioridad": 1,
+  "Familia": "Galletas",
+  "orden": 47
+ },
+ {
+  "PalabraClave": "GAZ",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 48
+ },
+ {
+  "PalabraClave": "EAU",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 49
+ },
+ {
+  "PalabraClave": "PEPSI",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 50
+ },
+ {
+  "PalabraClave": "JUS",
+  "CategoriaEstandar": "Jugo",
+  "Prioridad": 1,
+  "Familia": "Jugo",
+  "orden": 51
+ },
+ {
+  "PalabraClave": "COLA",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 52
+ },
+ {
+  "PalabraClave": "ZERO",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 53
+ },
+ {
+  "PalabraClave": "PEPSI",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 54
+ },
+ {
+  "PalabraClave": "GL",
+  "CategoriaEstandar": "Helado",
+  "Prioridad": 1,
+  "Familia": "Helado",
+  "orden": 55
+ },
+ {
+  "PalabraClave": "OEUF",
+  "CategoriaEstandar": "Huevos",
+  "Prioridad": 3,
+  "Familia": "Huevos",
+  "orden": 56
+ },
+ {
+  "PalabraClave": "QUEBON",
+  "CategoriaEstandar": "Leche",
+  "Prioridad": 1,
+  "Familia": "Leche",
+  "orden": 57
+ },
+ {
+  "PalabraClave": "LAIT",
+  "CategoriaEstandar": "Leche",
+  "Prioridad": 1,
+  "Familia": "Leche",
+  "orden": 58
+ },
+ {
+  "PalabraClave": "NAT",
+  "CategoriaEstandar": "Leche",
+  "Prioridad": 1,
+  "Familia": "Leche",
+  "orden": 59
+ },
+ {
+  "PalabraClave": "VINAIGRE",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Vinagre",
+  "orden": 60
+ },
+ {
+  "PalabraClave": "HERTEL",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Limpiador",
+  "orden": 61
+ },
+ {
+  "PalabraClave": "BICARB",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Bicarbonato",
+  "orden": 62
+ },
+ {
+  "PalabraClave": "VERRE",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Vajilla",
+  "orden": 63
+ },
+ {
+  "PalabraClave": "TASSE",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Vajilla",
+  "orden": 64
+ },
+ {
+  "PalabraClave": "CONTENANT",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Vajilla",
+  "orden": 65
+ },
+ {
+  "PalabraClave": "VERR",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Vajilla",
+  "orden": 66
+ },
+ {
+  "PalabraClave": "CONTENANT",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Vajilla",
+  "orden": 67
+ },
+ {
+  "PalabraClave": "MAIS",
+  "CategoriaEstandar": "Maiz pira",
+  "Prioridad": 1,
+  "Familia": "Maiz pira",
+  "orden": 68
+ },
+ {
+  "PalabraClave": "LAVE-GLACE",
+  "CategoriaEstandar": "Carro",
+  "Prioridad": 1,
+  "Familia": "Lavaparabrisas",
+  "orden": 69
+ },
+ {
+  "PalabraClave": "GAVISCON",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 70
+ },
+ {
+  "PalabraClave": "CROQUETTE",
+  "CategoriaEstandar": "Nuggets",
+  "Prioridad": 1,
+  "Familia": "Nuggets",
+  "orden": 71
+ },
+ {
+  "PalabraClave": "CROQ",
+  "CategoriaEstandar": "Nuggets",
+  "Prioridad": 1,
+  "Familia": "Nuggets",
+  "orden": 72
+ },
+ {
+  "PalabraClave": "AILE",
+  "CategoriaEstandar": "Nuggets",
+  "Prioridad": 1,
+  "Familia": "Nuggets",
+  "orden": 73
+ },
+ {
+  "PalabraClave": "NUTELLA",
+  "CategoriaEstandar": "Nutella",
+  "Prioridad": 1,
+  "Familia": "Nutella",
+  "orden": 74
+ },
+ {
+  "PalabraClave": "TARTIN",
+  "CategoriaEstandar": "Nutella",
+  "Prioridad": 1,
+  "Familia": "Nutella",
+  "orden": 75
+ },
+ {
+  "PalabraClave": "M.C.C.",
+  "CategoriaEstandar": "Otro",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 76
+ },
+ {
+  "PalabraClave": "ROBOT",
+  "CategoriaEstandar": "Juguetes",
+  "Prioridad": 1,
+  "Familia": "Juguetes",
+  "orden": 77
+ },
+ {
+  "PalabraClave": "CLOCHEGRAINESOIX",
+  "CategoriaEstandar": "Mascotas",
+  "Prioridad": 1,
+  "Familia": "Alimento aves",
+  "orden": 78
+ },
+ {
+  "PalabraClave": "MIO AROM. EAU BAI",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Saborizante bebida",
+  "orden": 79
+ },
+ {
+  "PalabraClave": "SE FIL.MORUE: S.A",
+  "CategoriaEstandar": "Pescado",
+  "Prioridad": 1,
+  "Familia": "Pescado",
+  "orden": 80
+ },
+ {
+  "PalabraClave": "BRIQUET",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Encendedor",
+  "orden": 81
+ },
+ {
+  "PalabraClave": "CROISSANTS",
+  "CategoriaEstandar": "Pan",
+  "Prioridad": 1,
+  "Familia": "Pan",
+  "orden": 82
+ },
+ {
+  "PalabraClave": "TRANCHE",
+  "CategoriaEstandar": "Pan",
+  "Prioridad": 1,
+  "Familia": "Pan",
+  "orden": 83
+ },
+ {
+  "PalabraClave": "PAIN",
+  "CategoriaEstandar": "Pan",
+  "Prioridad": 1,
+  "Familia": "Pan",
+  "orden": 84
+ },
+ {
+  "PalabraClave": "PAINS",
+  "CategoriaEstandar": "Pan",
+  "Prioridad": 1,
+  "Familia": "Pan",
+  "orden": 85
+ },
+ {
+  "PalabraClave": "FRITE",
+  "CategoriaEstandar": "Papas precocidas",
+  "Prioridad": 1,
+  "Familia": "Papas precocidas",
+  "orden": 86
+ },
+ {
+  "PalabraClave": "SERVIETTE",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Servilletas",
+  "orden": 87
+ },
+ {
+  "PalabraClave": "RUBAN-CACHE",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Manualidades",
+  "orden": 88
+ },
+ {
+  "PalabraClave": "PEINTURE",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Manualidades",
+  "orden": 89
+ },
+ {
+  "PalabraClave": "PISTOLET",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Manualidades",
+  "orden": 90
+ },
+ {
+  "PalabraClave": "COLLE",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Manualidades",
+  "orden": 91
+ },
+ {
+  "PalabraClave": "PINCEAUX",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Manualidades",
+  "orden": 92
+ },
+ {
+  "PalabraClave": "CASA",
+  "CategoriaEstandar": "Pizza",
+  "Prioridad": 1,
+  "Familia": "Pizza",
+  "orden": 93
+ },
+ {
+  "PalabraClave": "PIZZA",
+  "CategoriaEstandar": "Pizza",
+  "Prioridad": 1,
+  "Familia": "Pizza",
+  "orden": 94
+ },
+ {
+  "PalabraClave": "PLANTAIN",
+  "CategoriaEstandar": "Platano",
+  "Prioridad": 1,
+  "Familia": "Platano",
+  "orden": 95
+ },
+ {
+  "PalabraClave": "GAT",
+  "CategoriaEstandar": "Ponque",
+  "Prioridad": 2,
+  "Familia": "Ponque",
+  "orden": 96
+ },
+ {
+  "PalabraClave": "MOZZ",
+  "CategoriaEstandar": "Queso",
+  "Prioridad": 1,
+  "Familia": "Queso",
+  "orden": 97
+ },
+ {
+  "PalabraClave": "BLOC",
+  "CategoriaEstandar": "Queso",
+  "Prioridad": 1,
+  "Familia": "Queso",
+  "orden": 98
+ },
+ {
+  "PalabraClave": "FROM",
+  "CategoriaEstandar": "Queso",
+  "Prioridad": 1,
+  "Familia": "Queso",
+  "orden": 99
+ },
+ {
+  "PalabraClave": "WINDSOR",
+  "CategoriaEstandar": "Sal",
+  "Prioridad": 1,
+  "Familia": "Sal",
+  "orden": 100
+ },
+ {
+  "PalabraClave": "SOUPE",
+  "CategoriaEstandar": "Sopa ramen",
+  "Prioridad": 1,
+  "Familia": "Sopa ramen",
+  "orden": 101
+ },
+ {
+  "PalabraClave": "TOMATES ROUGES E",
+  "CategoriaEstandar": "Tomate",
+  "Prioridad": 1,
+  "Familia": "Tomate",
+  "orden": 102
+ },
+ {
+  "PalabraClave": "TOMATES",
+  "CategoriaEstandar": "Tomate",
+  "Prioridad": 1,
+  "Familia": "Tomate",
+  "orden": 103
+ },
+ {
+  "PalabraClave": "TORTILLA",
+  "CategoriaEstandar": "Tortillas",
+  "Prioridad": 1,
+  "Familia": "Tortillas",
+  "orden": 104
+ },
+ {
+  "PalabraClave": "YOG",
+  "CategoriaEstandar": "Yogurt",
+  "Prioridad": 1,
+  "Familia": "Yogurt",
+  "orden": 105
+ },
+ {
+  "PalabraClave": "IOGO",
+  "CategoriaEstandar": "Yogurt",
+  "Prioridad": 1,
+  "Familia": "Yogurt",
+  "orden": 106
+ },
+ {
+  "PalabraClave": "YOPL",
+  "CategoriaEstandar": "Yogurt",
+  "Prioridad": 1,
+  "Familia": "Yogurt",
+  "orden": 107
+ },
+ {
+  "PalabraClave": "YUCCA",
+  "CategoriaEstandar": "Yuca",
+  "Prioridad": 1,
+  "Familia": "Yuca",
+  "orden": 108
+ },
+ {
+  "PalabraClave": "MANIOC",
+  "CategoriaEstandar": "Yuca",
+  "Prioridad": 1,
+  "Familia": "Yuca",
+  "orden": 109
+ },
+ {
+  "PalabraClave": "GEOMETRIE",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Útiles escolares",
+  "orden": 110
+ },
+ {
+  "PalabraClave": "RACINETTE",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 2,
+  "Familia": "Gaseosas",
+  "orden": 111
+ },
+ {
+  "PalabraClave": "EMPANADA",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Empanadas",
+  "orden": 112
+ },
+ {
+  "PalabraClave": "Feuilleté",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Hojaldre",
+  "orden": 113
+ },
+ {
+  "PalabraClave": "Pony",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 114
+ },
+ {
+  "PalabraClave": "Gatorade",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 115
+ },
+ {
+  "PalabraClave": "bono",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Pan de bono",
+  "orden": 116
+ },
+ {
+  "PalabraClave": "RASOIR",
+  "CategoriaEstandar": "Aseo cuerpo",
+  "Prioridad": 1,
+  "Familia": "Afeitado",
+  "orden": 117
+ },
+ {
+  "PalabraClave": "TUMS",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 118
+ },
+ {
+  "PalabraClave": "ALCOOL",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 119
+ },
+ {
+  "PalabraClave": "CROUST",
+  "CategoriaEstandar": "Frituras",
+  "Prioridad": 1,
+  "Familia": "Frituras",
+  "orden": 120
+ },
+ {
+  "PalabraClave": "MAIS",
+  "CategoriaEstandar": "Maiz pira",
+  "Prioridad": 1,
+  "Familia": "Maiz pira",
+  "orden": 121
+ },
+ {
+  "PalabraClave": "KETCHUP",
+  "CategoriaEstandar": "Salsa de tomate",
+  "Prioridad": 1,
+  "Familia": "Salsa de tomate",
+  "orden": 122
+ },
+ {
+  "PalabraClave": "BONB",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Caramelos",
+  "orden": 123
+ },
+ {
+  "PalabraClave": "POULET",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Pollo",
+  "orden": 124
+ },
+ {
+  "PalabraClave": "PORC",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 3,
+  "Familia": "Cerdo",
+  "orden": 125
+ },
+ {
+  "PalabraClave": "HACHE",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Carne molida",
+  "orden": 126
+ },
+ {
+  "PalabraClave": "YUCA",
+  "CategoriaEstandar": "Frituras",
+  "Prioridad": null,
+  "Familia": "Frituras",
+  "orden": 127
+ },
+ {
+  "PalabraClave": "TROPICAL",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": null,
+  "Familia": "Gaseosas",
+  "orden": 128
+ },
+ {
+  "PalabraClave": "PUNCH",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": null,
+  "Familia": "Gaseosas",
+  "orden": 129
+ },
+ {
+  "PalabraClave": "JET",
+  "CategoriaEstandar": "Chocolatinas JET",
+  "Prioridad": null,
+  "Familia": "Chocolatinas JET",
+  "orden": 130
+ },
+ {
+  "PalabraClave": "GOIABADA",
+  "CategoriaEstandar": "Bocadillo",
+  "Prioridad": null,
+  "Familia": "Bocadillo",
+  "orden": 131
+ },
+ {
+  "PalabraClave": "CORONA",
+  "CategoriaEstandar": "Chocolate Corona",
+  "Prioridad": null,
+  "Familia": "Chocolate Corona",
+  "orden": 132
+ },
+ {
+  "PalabraClave": "ROTI PORC",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Cerdo",
+  "orden": 133
+ },
+ {
+  "PalabraClave": "PALT BF",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Res",
+  "orden": 134
+ },
+ {
+  "PalabraClave": "BIFTK",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Res",
+  "orden": 135
+ },
+ {
+  "PalabraClave": "SURLNGE",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Res",
+  "orden": 136
+ },
+ {
+  "PalabraClave": "COTELET",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 2,
+  "Familia": "Cerdo",
+  "orden": 137
+ },
+ {
+  "PalabraClave": "LONGE",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 2,
+  "Familia": "Cerdo",
+  "orden": 138
+ },
+ {
+  "PalabraClave": "COUENNE",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Chicharrón",
+  "orden": 139
+ },
+ {
+  "PalabraClave": "PEPPRONI",
+  "CategoriaEstandar": "Carne",
+  "Prioridad": 1,
+  "Familia": "Pepperoni",
+  "orden": 140
+ },
+ {
+  "PalabraClave": "CROQ.POULET",
+  "CategoriaEstandar": "Nuggets",
+  "Prioridad": 1,
+  "Familia": "Nuggets",
+  "orden": 141
+ },
+ {
+  "PalabraClave": "PEPITES POUL",
+  "CategoriaEstandar": "Nuggets",
+  "Prioridad": 1,
+  "Familia": "Nuggets",
+  "orden": 142
+ },
+ {
+  "PalabraClave": "JANES",
+  "CategoriaEstandar": "Nuggets",
+  "Prioridad": 1,
+  "Familia": "Nuggets",
+  "orden": 143
+ },
+ {
+  "PalabraClave": "SCE CHILI",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Salsas",
+  "orden": 144
+ },
+ {
+  "PalabraClave": "SAUCE PIQU",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Salsas",
+  "orden": 145
+ },
+ {
+  "PalabraClave": "SCE SO",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Salsas",
+  "orden": 146
+ },
+ {
+  "PalabraClave": "PAPA AU POULET",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Papa rellena",
+  "orden": 147
+ },
+ {
+  "PalabraClave": "COLOMBIEN",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Empanadas",
+  "orden": 148
+ },
+ {
+  "PalabraClave": "MONDONGO",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Sopa mondongo",
+  "orden": 149
+ },
+ {
+  "PalabraClave": "MARISCOS",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Plato preparado",
+  "orden": 150
+ },
+ {
+  "PalabraClave": "PICADA",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Plato preparado",
+  "orden": 151
+ },
+ {
+  "PalabraClave": "CHOIX",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Plato preparado",
+  "orden": 152
+ },
+ {
+  "PalabraClave": "BIG MAC",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Comida rápida",
+  "orden": 153
+ },
+ {
+  "PalabraClave": "QUART",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Comida rápida",
+  "orden": 154
+ },
+ {
+  "PalabraClave": "COKE",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 155
+ },
+ {
+  "PalabraClave": "7 UP",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 156
+ },
+ {
+  "PalabraClave": "SPRITE",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 157
+ },
+ {
+  "PalabraClave": "FANTA",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 158
+ },
+ {
+  "PalabraClave": "POWERADE",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 159
+ },
+ {
+  "PalabraClave": "COLOMBIANA",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Gaseosas",
+  "orden": 160
+ },
+ {
+  "PalabraClave": "FRUITOPIA",
+  "CategoriaEstandar": "Jugo",
+  "Prioridad": 1,
+  "Familia": "Jugo",
+  "orden": 161
+ },
+ {
+  "PalabraClave": "JUICE",
+  "CategoriaEstandar": "Jugo",
+  "Prioridad": 1,
+  "Familia": "Jugo",
+  "orden": 162
+ },
+ {
+  "PalabraClave": "SMOOT",
+  "CategoriaEstandar": "Jugo",
+  "Prioridad": 1,
+  "Familia": "Jugo",
+  "orden": 163
+ },
+ {
+  "PalabraClave": "CAFÉ",
+  "CategoriaEstandar": "Cafe",
+  "Prioridad": 1,
+  "Familia": "Café",
+  "orden": 164
+ },
+ {
+  "PalabraClave": "NSCF",
+  "CategoriaEstandar": "Cafe",
+  "Prioridad": 1,
+  "Familia": "Café",
+  "orden": 165
+ },
+ {
+  "PalabraClave": "DEPOT BOUTEILLE",
+  "CategoriaEstandar": "Deposito envases",
+  "Prioridad": 1,
+  "Familia": "Depósito envases",
+  "orden": 166
+ },
+ {
+  "PalabraClave": "DEPOT BTL",
+  "CategoriaEstandar": "Deposito envases",
+  "Prioridad": 1,
+  "Familia": "Depósito envases",
+  "orden": 167
+ },
+ {
+  "PalabraClave": "QC DPT",
+  "CategoriaEstandar": "Deposito envases",
+  "Prioridad": 1,
+  "Familia": "Depósito envases",
+  "orden": 168
+ },
+ {
+  "PalabraClave": "SLUSH",
+  "CategoriaEstandar": "Helado",
+  "Prioridad": 1,
+  "Familia": "Granizado",
+  "orden": 169
+ },
+ {
+  "PalabraClave": "CORNET",
+  "CategoriaEstandar": "Helado",
+  "Prioridad": 1,
+  "Familia": "Helado",
+  "orden": 170
+ },
+ {
+  "PalabraClave": "CHOCOLAT CORONA",
+  "CategoriaEstandar": "Chocolate Corona",
+  "Prioridad": 1,
+  "Familia": "Chocolate Corona",
+  "orden": 171
+ },
+ {
+  "PalabraClave": "CORONA CHOCOLAT",
+  "CategoriaEstandar": "Chocolate Corona",
+  "Prioridad": 1,
+  "Familia": "Chocolate Corona",
+  "orden": 172
+ },
+ {
+  "PalabraClave": "JET CHOCOLATINA",
+  "CategoriaEstandar": "Chocolatinas JET",
+  "Prioridad": 1,
+  "Familia": "Chocolatinas JET",
+  "orden": 173
+ },
+ {
+  "PalabraClave": "CHOC CHAU",
+  "CategoriaEstandar": "Chocolate caliente",
+  "Prioridad": 1,
+  "Familia": "Chocolate caliente",
+  "orden": 174
+ },
+ {
+  "PalabraClave": "SNICKERS",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Chocolate",
+  "orden": 175
+ },
+ {
+  "PalabraClave": "TIC TAC",
+  "CategoriaEstandar": "Dulces",
+  "Prioridad": 1,
+  "Familia": "Caramelos",
+  "orden": 176
+ },
+ {
+  "PalabraClave": "HUMPTY DUMPTY",
+  "CategoriaEstandar": "Frituras",
+  "Prioridad": 1,
+  "Familia": "Frituras",
+  "orden": 177
+ },
+ {
+  "PalabraClave": "CHEETOS",
+  "CategoriaEstandar": "Frituras",
+  "Prioridad": 1,
+  "Familia": "Frituras",
+  "orden": 178
+ },
+ {
+  "PalabraClave": "BISCUITS",
+  "CategoriaEstandar": "Galletas",
+  "Prioridad": 1,
+  "Familia": "Galletas",
+  "orden": 179
+ },
+ {
+  "PalabraClave": "CUCALES",
+  "CategoriaEstandar": "Galletas",
+  "Prioridad": 1,
+  "Familia": "Galletas",
+  "orden": 180
+ },
+ {
+  "PalabraClave": "SAIDA",
+  "CategoriaEstandar": "Galletas",
+  "Prioridad": 1,
+  "Familia": "Galletas",
+  "orden": 181
+ },
+ {
+  "PalabraClave": "CNC BAR",
+  "CategoriaEstandar": "Snacks",
+  "Prioridad": 1,
+  "Familia": "Barras de cereal",
+  "orden": 182
+ },
+ {
+  "PalabraClave": "BAGUETTE",
+  "CategoriaEstandar": "Pan",
+  "Prioridad": 1,
+  "Familia": "Pan",
+  "orden": 183
+ },
+ {
+  "PalabraClave": "CIABATTA",
+  "CategoriaEstandar": "Pan",
+  "Prioridad": 1,
+  "Familia": "Pan",
+  "orden": 184
+ },
+ {
+  "PalabraClave": "MICHE",
+  "CategoriaEstandar": "Pan",
+  "Prioridad": 1,
+  "Familia": "Pan",
+  "orden": 185
+ },
+ {
+  "PalabraClave": "EGGO",
+  "CategoriaEstandar": "Pan",
+  "Prioridad": 1,
+  "Familia": "Waffles",
+  "orden": 186
+ },
+ {
+  "PalabraClave": "PATE TOMATE",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Pasta de tomate",
+  "orden": 187
+ },
+ {
+  "PalabraClave": "AURORA TOMATE",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Tomate enlatado",
+  "orden": 188
+ },
+ {
+  "PalabraClave": "FARINE",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Harina",
+  "orden": 189
+ },
+ {
+  "PalabraClave": "PATE ALI",
+  "CategoriaEstandar": "Pasta",
+  "Prioridad": 1,
+  "Familia": "Pasta",
+  "orden": 190
+ },
+ {
+  "PalabraClave": "PAST.L",
+  "CategoriaEstandar": "Pasta",
+  "Prioridad": 1,
+  "Familia": "Pasta",
+  "orden": 191
+ },
+ {
+  "PalabraClave": "RI.G.L",
+  "CategoriaEstandar": "Arroz",
+  "Prioridad": 1,
+  "Familia": "Arroz",
+  "orden": 192
+ },
+ {
+  "PalabraClave": "EPICE",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Especias",
+  "orden": 193
+ },
+ {
+  "PalabraClave": "PDRE DAIL",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Especias",
+  "orden": 194
+ },
+ {
+  "PalabraClave": "BOUIL.CUBE",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Caldo",
+  "orden": 195
+ },
+ {
+  "PalabraClave": "SEL FIN",
+  "CategoriaEstandar": "Sal",
+  "Prioridad": 1,
+  "Familia": "Sal",
+  "orden": 196
+ },
+ {
+  "PalabraClave": "PANELA",
+  "CategoriaEstandar": "Azucar",
+  "Prioridad": 1,
+  "Familia": "Panela",
+  "orden": 197
+ },
+ {
+  "PalabraClave": "LENTILLE",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Lentejas",
+  "orden": 198
+ },
+ {
+  "PalabraClave": "CHIA",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Chía",
+  "orden": 199
+ },
+ {
+  "PalabraClave": "PDR.GELE",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Gelatina",
+  "orden": 200
+ },
+ {
+  "PalabraClave": "NOUIL",
+  "CategoriaEstandar": "Sopa ramen",
+  "Prioridad": 1,
+  "Familia": "Sopa ramen",
+  "orden": 201
+ },
+ {
+  "PalabraClave": "MR NOODLE",
+  "CategoriaEstandar": "Sopa ramen",
+  "Prioridad": 1,
+  "Familia": "Sopa ramen",
+  "orden": 202
+ },
+ {
+  "PalabraClave": "MRNOOD",
+  "CategoriaEstandar": "Sopa ramen",
+  "Prioridad": 1,
+  "Familia": "Sopa ramen",
+  "orden": 203
+ },
+ {
+  "PalabraClave": "CREATINE",
+  "CategoriaEstandar": "Suplementos",
+  "Prioridad": 1,
+  "Familia": "Suplementos",
+  "orden": 204
+ },
+ {
+  "PalabraClave": "TOMATE",
+  "CategoriaEstandar": "Tomate",
+  "Prioridad": 2,
+  "Familia": "Tomate",
+  "orden": 205
+ },
+ {
+  "PalabraClave": "AVOCAT",
+  "CategoriaEstandar": "Aguacate",
+  "Prioridad": 1,
+  "Familia": "Aguacate",
+  "orden": 206
+ },
+ {
+  "PalabraClave": "FRAISES",
+  "CategoriaEstandar": "Frutas",
+  "Prioridad": 1,
+  "Familia": "Fresas",
+  "orden": 207
+ },
+ {
+  "PalabraClave": "PAPAYE",
+  "CategoriaEstandar": "Frutas",
+  "Prioridad": 1,
+  "Familia": "Papaya",
+  "orden": 208
+ },
+ {
+  "PalabraClave": "PRUNE",
+  "CategoriaEstandar": "Frutas",
+  "Prioridad": 1,
+  "Familia": "Ciruela",
+  "orden": 209
+ },
+ {
+  "PalabraClave": "RAISINS VERTS",
+  "CategoriaEstandar": "Frutas",
+  "Prioridad": 1,
+  "Familia": "Uvas",
+  "orden": 210
+ },
+ {
+  "PalabraClave": "CAROTTE",
+  "CategoriaEstandar": "Verduras",
+  "Prioridad": 1,
+  "Familia": "Zanahoria",
+  "orden": 211
+ },
+ {
+  "PalabraClave": "CELERI",
+  "CategoriaEstandar": "Verduras",
+  "Prioridad": 1,
+  "Familia": "Apio",
+  "orden": 212
+ },
+ {
+  "PalabraClave": "POIVRON",
+  "CategoriaEstandar": "Verduras",
+  "Prioridad": 1,
+  "Familia": "Pimentón",
+  "orden": 213
+ },
+ {
+  "PalabraClave": "OIGNON JAUNE",
+  "CategoriaEstandar": "Verduras",
+  "Prioridad": 1,
+  "Familia": "Cebolla",
+  "orden": 214
+ },
+ {
+  "PalabraClave": "GARLIC",
+  "CategoriaEstandar": "Verduras",
+  "Prioridad": 1,
+  "Familia": "Ajo",
+  "orden": 215
+ },
+ {
+  "PalabraClave": "DENTIFRICE",
+  "CategoriaEstandar": "Aseo oral",
+  "Prioridad": 1,
+  "Familia": "Crema dental",
+  "orden": 216
+ },
+ {
+  "PalabraClave": "SOIE DENTAIRE",
+  "CategoriaEstandar": "Aseo oral",
+  "Prioridad": 1,
+  "Familia": "Hilo dental",
+  "orden": 217
+ },
+ {
+  "PalabraClave": "TUMS BOUCHEES",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 218
+ },
+ {
+  "PalabraClave": "DEGREE",
+  "CategoriaEstandar": "Aseo cuerpo",
+  "Prioridad": 1,
+  "Familia": "Desodorante",
+  "orden": 219
+ },
+ {
+  "PalabraClave": "EPILATEUR",
+  "CategoriaEstandar": "Aseo cuerpo",
+  "Prioridad": 1,
+  "Familia": "Depilación",
+  "orden": 220
+ },
+ {
+  "PalabraClave": "COTON-TIGES",
+  "CategoriaEstandar": "Aseo cuerpo",
+  "Prioridad": 1,
+  "Familia": "Copitos",
+  "orden": 221
+ },
+ {
+  "PalabraClave": "H SHOULD",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Champú",
+  "orden": 222
+ },
+ {
+  "PalabraClave": "LUBRIDERM",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Cuidado piel",
+  "orden": 223
+ },
+ {
+  "PalabraClave": "VASELINE",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Cuidado piel",
+  "orden": 224
+ },
+ {
+  "PalabraClave": "VICHY",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Cuidado piel",
+  "orden": 225
+ },
+ {
+  "PalabraClave": "VICHY SOL",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Protector solar",
+  "orden": 226
+ },
+ {
+  "PalabraClave": "LRP ANTH",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Protector solar",
+  "orden": 227
+ },
+ {
+  "PalabraClave": "DEMAQ",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Cuidado piel",
+  "orden": 228
+ },
+ {
+  "PalabraClave": "MSCR",
+  "CategoriaEstandar": "Cosmeticos",
+  "Prioridad": 1,
+  "Familia": "Maquillaje",
+  "orden": 229
+ },
+ {
+  "PalabraClave": "LINGETTES",
+  "CategoriaEstandar": "Aseo cuerpo",
+  "Prioridad": 1,
+  "Familia": "Toallitas húmedas",
+  "orden": 230
+ },
+ {
+  "PalabraClave": "PC SS PH",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Papel higiénico",
+  "orden": 231
+ },
+ {
+  "PalabraClave": "ESSUIE",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Toallas de papel",
+  "orden": 232
+ },
+ {
+  "PalabraClave": "ADVIL",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 233
+ },
+ {
+  "PalabraClave": "ALEVE",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 234
+ },
+ {
+  "PalabraClave": "TYLENOL",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 235
+ },
+ {
+  "PalabraClave": "CEPACOL",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 236
+ },
+ {
+  "PalabraClave": "BRADOSOL",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 237
+ },
+ {
+  "PalabraClave": "HALLS",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 238
+ },
+ {
+  "PalabraClave": "ONGUENT",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 239
+ },
+ {
+  "PalabraClave": "PEROXYDE",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 240
+ },
+ {
+  "PalabraClave": "CAPS.LIQ",
+  "CategoriaEstandar": "Medicamentos",
+  "Prioridad": 1,
+  "Familia": "Medicamentos",
+  "orden": 241
+ },
+ {
+  "PalabraClave": "PROTHÈSE",
+  "CategoriaEstandar": "Salud",
+  "Prioridad": 1,
+  "Familia": "Dentista",
+  "orden": 242
+ },
+ {
+  "PalabraClave": "EXAMEN D'URGENCE",
+  "CategoriaEstandar": "Salud",
+  "Prioridad": 1,
+  "Familia": "Dentista",
+  "orden": 243
+ },
+ {
+  "PalabraClave": "RADIOGRAPHIE",
+  "CategoriaEstandar": "Salud",
+  "Prioridad": 1,
+  "Familia": "Dentista",
+  "orden": 244
+ },
+ {
+  "PalabraClave": "NETTOYANT",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Limpiador",
+  "orden": 245
+ },
+ {
+  "PalabraClave": "M.NET",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Limpiador",
+  "orden": 246
+ },
+ {
+  "PalabraClave": "PRO.ENTRET",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Limpiador",
+  "orden": 247
+ },
+ {
+  "PalabraClave": "EPONGES",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Esponjas",
+  "orden": 248
+ },
+ {
+  "PalabraClave": "DTRGNT VAIS",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Lavaplatos",
+  "orden": 249
+ },
+ {
+  "PalabraClave": "DET.LESS",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Detergente ropa",
+  "orden": 250
+ },
+ {
+  "PalabraClave": "BALAI",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Accesorios limpieza",
+  "orden": 251
+ },
+ {
+  "PalabraClave": "VAPORISATEUR",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Accesorios limpieza",
+  "orden": 252
+ },
+ {
+  "PalabraClave": "VACUUM",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Repuestos aspiradora",
+  "orden": 253
+ },
+ {
+  "PalabraClave": "ASSIETTE",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Vajilla",
+  "orden": 254
+ },
+ {
+  "PalabraClave": "BOUTEILLE",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 2,
+  "Familia": "Vajilla",
+  "orden": 255
+ },
+ {
+  "PalabraClave": "CUILLER",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Utensilios cocina",
+  "orden": 256
+ },
+ {
+  "PalabraClave": "PASSOIRE",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Utensilios cocina",
+  "orden": 257
+ },
+ {
+  "PalabraClave": "PLANCHE DECOUPER",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Utensilios cocina",
+  "orden": 258
+ },
+ {
+  "PalabraClave": "PINCE 8",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Utensilios cocina",
+  "orden": 259
+ },
+ {
+  "PalabraClave": "FRY PAN",
+  "CategoriaEstandar": "Loza",
+  "Prioridad": 1,
+  "Familia": "Utensilios cocina",
+  "orden": 260
+ },
+ {
+  "PalabraClave": "CURE DENTS",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Palillos",
+  "orden": 261
+ },
+ {
+  "PalabraClave": "MELANGR MAIN",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Electrodomésticos",
+  "orden": 262
+ },
+ {
+  "PalabraClave": "MIROIR",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Espejos",
+  "orden": 263
+ },
+ {
+  "PalabraClave": "TAPIS",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Alfombras",
+  "orden": 264
+ },
+ {
+  "PalabraClave": "DRAPS",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Ropa de cama",
+  "orden": 265
+ },
+ {
+  "PalabraClave": "CINTRES",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Organización",
+  "orden": 266
+ },
+ {
+  "PalabraClave": "SUPPORT A REVUE",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Organización",
+  "orden": 267
+ },
+ {
+  "PalabraClave": "NAPPERON",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Manteles",
+  "orden": 268
+ },
+ {
+  "PalabraClave": "SERV PLAGE",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Toallas",
+  "orden": 269
+ },
+ {
+  "PalabraClave": "PILES",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Pilas",
+  "orden": 270
+ },
+ {
+  "PalabraClave": "ALCALINE",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Pilas",
+  "orden": 271
+ },
+ {
+  "PalabraClave": "KALLAX",
+  "CategoriaEstandar": "Muebles",
+  "Prioridad": 1,
+  "Familia": "Muebles",
+  "orden": 272
+ },
+ {
+  "PalabraClave": "LACK",
+  "CategoriaEstandar": "Muebles",
+  "Prioridad": 2,
+  "Familia": "Muebles",
+  "orden": 273
+ },
+ {
+  "PalabraClave": "MÖRBYLÅNGA",
+  "CategoriaEstandar": "Muebles",
+  "Prioridad": 1,
+  "Familia": "Muebles",
+  "orden": 274
+ },
+ {
+  "PalabraClave": "TOBIAS",
+  "CategoriaEstandar": "Muebles",
+  "Prioridad": 1,
+  "Familia": "Muebles",
+  "orden": 275
+ },
+ {
+  "PalabraClave": "FAUTEUIL",
+  "CategoriaEstandar": "Muebles",
+  "Prioridad": 1,
+  "Familia": "Muebles",
+  "orden": 276
+ },
+ {
+  "PalabraClave": "SAC ECO",
+  "CategoriaEstandar": "Bolsas",
+  "Prioridad": 1,
+  "Familia": "Bolsas",
+  "orden": 277
+ },
+ {
+  "PalabraClave": "SAC REUTI",
+  "CategoriaEstandar": "Bolsas",
+  "Prioridad": 1,
+  "Familia": "Bolsas",
+  "orden": 278
+ },
+ {
+  "PalabraClave": "FLEU",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 2,
+  "Familia": "Semillas y plantas",
+  "orden": 279
+ },
+ {
+  "PalabraClave": "CALENDULA",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 1,
+  "Familia": "Semillas y plantas",
+  "orden": 280
+ },
+ {
+  "PalabraClave": "COSMOS",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 1,
+  "Familia": "Semillas y plantas",
+  "orden": 281
+ },
+ {
+  "PalabraClave": "ZINNIA",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 1,
+  "Familia": "Semillas y plantas",
+  "orden": 282
+ },
+ {
+  "PalabraClave": "TOURNESOL",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 1,
+  "Familia": "Semillas y plantas",
+  "orden": 283
+ },
+ {
+  "PalabraClave": "POT DE FLEURS",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 1,
+  "Familia": "Macetas",
+  "orden": 284
+ },
+ {
+  "PalabraClave": "JARDINIERE",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 1,
+  "Familia": "Macetas",
+  "orden": 285
+ },
+ {
+  "PalabraClave": "TERR EMPOT",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 1,
+  "Familia": "Tierra",
+  "orden": 286
+ },
+ {
+  "PalabraClave": "FUNGICIDE",
+  "CategoriaEstandar": "Jardín",
+  "Prioridad": 1,
+  "Familia": "Fungicida",
+  "orden": 287
+ },
+ {
+  "PalabraClave": "NOURRITURE OISEA",
+  "CategoriaEstandar": "Mascotas",
+  "Prioridad": 1,
+  "Familia": "Alimento aves",
+  "orden": 288
+ },
+ {
+  "PalabraClave": "PAPIER LASER",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Útiles escolares",
+  "orden": 289
+ },
+ {
+  "PalabraClave": "MINES D/RECHANGE",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Útiles escolares",
+  "orden": 290
+ },
+ {
+  "PalabraClave": "LIVRE ARTISTE",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Manualidades",
+  "orden": 291
+ },
+ {
+  "PalabraClave": "PATE A MODELER",
+  "CategoriaEstandar": "Juguetes",
+  "Prioridad": 1,
+  "Familia": "Juguetes",
+  "orden": 292
+ },
+ {
+  "PalabraClave": "JEU SOCIETE",
+  "CategoriaEstandar": "Juguetes",
+  "Prioridad": 1,
+  "Familia": "Juguetes",
+  "orden": 293
+ },
+ {
+  "PalabraClave": "CANARD",
+  "CategoriaEstandar": "Juguetes",
+  "Prioridad": 1,
+  "Familia": "Juguetes",
+  "orden": 294
+ },
+ {
+  "PalabraClave": "AUTOCOLL",
+  "CategoriaEstandar": "Juguetes",
+  "Prioridad": 1,
+  "Familia": "Juguetes",
+  "orden": 295
+ },
+ {
+  "PalabraClave": "SONIC",
+  "CategoriaEstandar": "Juguetes",
+  "Prioridad": 1,
+  "Familia": "Juguetes",
+  "orden": 296
+ },
+ {
+  "PalabraClave": "ROBUX",
+  "CategoriaEstandar": "Ocio",
+  "Prioridad": 1,
+  "Familia": "Videojuegos",
+  "orden": 297
+ },
+ {
+  "PalabraClave": "PLAGE JEAN-DOR",
+  "CategoriaEstandar": "Ocio",
+  "Prioridad": 1,
+  "Familia": "Entradas",
+  "orden": 298
+ },
+ {
+  "PalabraClave": "CHAPELET",
+  "CategoriaEstandar": "Otro",
+  "Prioridad": 1,
+  "Familia": "Artículos religiosos",
+  "orden": 299
+ },
+ {
+  "PalabraClave": "ADN MYHERITAGE",
+  "CategoriaEstandar": "Otro",
+  "Prioridad": 1,
+  "Familia": "Kit ADN",
+  "orden": 300
+ },
+ {
+  "PalabraClave": "CHAUSSURES",
+  "CategoriaEstandar": "Ropa",
+  "Prioridad": 1,
+  "Familia": "Calzado",
+  "orden": 301
+ },
+ {
+  "PalabraClave": "SANDALES",
+  "CategoriaEstandar": "Ropa",
+  "Prioridad": 1,
+  "Familia": "Calzado",
+  "orden": 302
+ },
+ {
+  "PalabraClave": "SE 500 HIGH",
+  "CategoriaEstandar": "Ropa",
+  "Prioridad": 1,
+  "Familia": "Calzado",
+  "orden": 303
+ },
+ {
+  "PalabraClave": "CHEMISE",
+  "CategoriaEstandar": "Ropa",
+  "Prioridad": 1,
+  "Familia": "Ropa",
+  "orden": 304
+ },
+ {
+  "PalabraClave": "MAILLOT",
+  "CategoriaEstandar": "Ropa",
+  "Prioridad": 1,
+  "Familia": "Ropa",
+  "orden": 305
+ },
+ {
+  "PalabraClave": "JOGGING",
+  "CategoriaEstandar": "Ropa",
+  "Prioridad": 1,
+  "Familia": "Ropa",
+  "orden": 306
+ },
+ {
+  "PalabraClave": "VISOR",
+  "CategoriaEstandar": "Ropa",
+  "Prioridad": 1,
+  "Familia": "Ropa deportiva",
+  "orden": 307
+ },
+ {
+  "PalabraClave": "BIKE",
+  "CategoriaEstandar": "Deportes",
+  "Prioridad": 1,
+  "Familia": "Ciclismo",
+  "orden": 308
+ },
+ {
+  "PalabraClave": "VÉLO",
+  "CategoriaEstandar": "Deportes",
+  "Prioridad": 1,
+  "Familia": "Ciclismo",
+  "orden": 309
+ },
+ {
+  "PalabraClave": "CHAMBRE À AIR",
+  "CategoriaEstandar": "Deportes",
+  "Prioridad": 1,
+  "Familia": "Ciclismo",
+  "orden": 310
+ },
+ {
+  "PalabraClave": "V-BREAK",
+  "CategoriaEstandar": "Deportes",
+  "Prioridad": 1,
+  "Familia": "Ciclismo",
+  "orden": 311
+ },
+ {
+  "PalabraClave": "BALLON",
+  "CategoriaEstandar": "Deportes",
+  "Prioridad": 1,
+  "Familia": "Balones",
+  "orden": 312
+ },
+ {
+  "PalabraClave": "NEOPRENE",
+  "CategoriaEstandar": "Deportes",
+  "Prioridad": 1,
+  "Familia": "Pesas",
+  "orden": 313
+ },
+ {
+  "PalabraClave": "CANNE PECHE",
+  "CategoriaEstandar": "Deportes",
+  "Prioridad": 1,
+  "Familia": "Pesca",
+  "orden": 314
+ },
+ {
+  "PalabraClave": "SAC ETANCHE",
+  "CategoriaEstandar": "Deportes",
+  "Prioridad": 1,
+  "Familia": "Accesorios deporte",
+  "orden": 315
+ },
+ {
+  "PalabraClave": "5W20",
+  "CategoriaEstandar": "Carro",
+  "Prioridad": 1,
+  "Familia": "Aceite motor",
+  "orden": 316
+ },
+ {
+  "PalabraClave": "FILTRE H",
+  "CategoriaEstandar": "Carro",
+  "Prioridad": 1,
+  "Familia": "Filtros",
+  "orden": 317
+ },
+ {
+  "PalabraClave": "CARQUEST BLUE",
+  "CategoriaEstandar": "Carro",
+  "Prioridad": 1,
+  "Familia": "Filtros",
+  "orden": 318
+ },
+ {
+  "PalabraClave": "IRIDIUM",
+  "CategoriaEstandar": "Carro",
+  "Prioridad": 1,
+  "Familia": "Bujías",
+  "orden": 319
+ },
+ {
+  "PalabraClave": "STATIONNEMENT",
+  "CategoriaEstandar": "Carro",
+  "Prioridad": 1,
+  "Familia": "Estacionamiento",
+  "orden": 320
+ },
+ {
+  "PalabraClave": "SHIPPING COSTS",
+  "CategoriaEstandar": "Cargos",
+  "Prioridad": 1,
+  "Familia": "Envío",
+  "orden": 321
+ },
+ {
+  "PalabraClave": "ARANCELES",
+  "CategoriaEstandar": "Cargos",
+  "Prioridad": 1,
+  "Familia": "Aranceles",
+  "orden": 322
+ },
+ {
+  "PalabraClave": "ÉCOFRAIS",
+  "CategoriaEstandar": "Cargos",
+  "Prioridad": 1,
+  "Familia": "Ecofrais",
+  "orden": 323
+ },
+ {
+  "PalabraClave": "CONFIRMATION DE LIVRAISON",
+  "CategoriaEstandar": "Correo",
+  "Prioridad": 1,
+  "Familia": "Correo",
+  "orden": 324
+ },
+ {
+  "PalabraClave": "PAQUET REPÉRABLE",
+  "CategoriaEstandar": "Correo",
+  "Prioridad": 1,
+  "Familia": "Correo",
+  "orden": 325
+ },
+ {
+  "PalabraClave": "IRRS.EP.BTL",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 326
+ },
+ {
+  "PalabraClave": "SEL.ECONO E.SACH",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 327
+ },
+ {
+  "PalabraClave": "MSND17X24",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 328
+ },
+ {
+  "PalabraClave": "MS FIN PB TA",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 329
+ },
+ {
+  "PalabraClave": "JW-GG-TORVO",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 330
+ },
+ {
+  "PalabraClave": "SPD VENMVRS",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 331
+ },
+ {
+  "PalabraClave": "JURRSC NPPRN",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 332
+ },
+ {
+  "PalabraClave": "TM SANDWICH",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 333
+ },
+ {
+  "PalabraClave": "V BIR GREEN",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 334
+ },
+ {
+  "PalabraClave": "PL ARC ROTIE",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 335
+ },
+ {
+  "PalabraClave": "FARINE MAIS",
+  "CategoriaEstandar": "Despensa",
+  "Prioridad": 1,
+  "Familia": "Harina de maíz",
+  "orden": 336
+ },
+ {
+  "PalabraClave": "DOUBLE QRT",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Comida rápida",
+  "orden": 337
+ },
+ {
+  "PalabraClave": "HAMB",
+  "CategoriaEstandar": "Comida lista",
+  "Prioridad": 1,
+  "Familia": "Comida rápida",
+  "orden": 338
+ },
+ {
+  "PalabraClave": "DRAGON",
+  "CategoriaEstandar": "Sin identificar",
+  "Prioridad": 1,
+  "Familia": "Sin identificar",
+  "orden": 339
+ },
+ {
+  "PalabraClave": "EAU DE JAVEL",
+  "CategoriaEstandar": "Limpieza",
+  "Prioridad": 1,
+  "Familia": "Cloro",
+  "orden": 340
+ },
+ {
+  "PalabraClave": "MELON D'EAU",
+  "CategoriaEstandar": "Frutas",
+  "Prioridad": 1,
+  "Familia": "Sandía",
+  "orden": 341
+ },
+ {
+  "PalabraClave": "RIDEAU",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Baño",
+  "orden": 342
+ },
+ {
+  "PalabraClave": "ROULEAU EMBALLA",
+  "CategoriaEstandar": "Papeleria",
+  "Prioridad": 1,
+  "Familia": "Papel regalo",
+  "orden": 343
+ },
+ {
+  "PalabraClave": "PLANTE ART",
+  "CategoriaEstandar": "Hogar",
+  "Prioridad": 1,
+  "Familia": "Decoración",
+  "orden": 344
+ },
+ {
+  "PalabraClave": "MIO AROM",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Saborizante bebida",
+  "orden": 345
+ },
+ {
+  "PalabraClave": "CARBURANT",
+  "CategoriaEstandar": "Carro",
+  "Prioridad": 1,
+  "Familia": "Aditivo combustible",
+  "orden": 346
+ },
+ {
+  "PalabraClave": "THE GL",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Té helado",
+  "orden": 347
+ },
+ {
+  "PalabraClave": "TH.GL",
+  "CategoriaEstandar": "Gaseosas",
+  "Prioridad": 1,
+  "Familia": "Té helado",
+  "orden": 348
+ },
+ {
+  "PalabraClave": "GLUCO",
+  "CategoriaEstandar": "Suplementos",
+  "Prioridad": 1,
+  "Familia": "Suplementos",
+  "orden": 349
+ },
+ {
+  "PalabraClave": "CROQNAT",
+  "CategoriaEstandar": "Cereal",
+  "Prioridad": 1,
+  "Familia": "Cereal",
+  "orden": 350
+ }
+]

@@ -1,0 +1,21 @@
+# datos personales / secretos
+testdata/
+data/
+*.db
+*.sqlite*
+uploads/
+DEMO_LOGIN.txt
+RUNNING.md
+secret.key
+.env
+# binarios / artefactos
+bin/
+tessdata/
+screens/
+*.log
+*.pid
+__pycache__/
+*.pyc
+.venv/
+venv/
+.git/
