@@ -68,7 +68,7 @@ def _orientation(gray):
     la confianza de Tesseract contra la imagen sin rotar."""
     small = gray
     h, w = gray.shape
-    s = 1600.0 / max(h, w)
+    s = 1200.0 / max(h, w)
     if s < 1:
         small = cv2.resize(gray, (int(w * s), int(h * s)))
     cands = [0]
@@ -81,7 +81,7 @@ def _orientation(gray):
     except Exception:
         pass
     if w > h * 1.2:  # foto apaisada: el recibo seguro está de lado
-        cands += [d for d in (90, 270) if d not in cands]
+        cands = [d for d in cands if d != 0] + [d for d in (90, 270) if d not in cands]
     if len(cands) == 1:
         return 0
     with tesserocr.PyTessBaseAPI(path=TESSDATA, lang="fra+eng", psm=tesserocr.PSM.SPARSE_TEXT) as api:
@@ -99,8 +99,9 @@ def _rot(img, deg):
     return img
 
 
-def ocr_receipt(path):
-    """Devuelve (texto, info_dict)."""
+def ocr_receipt(path, accept=None):
+    """Devuelve ([(variante, texto, confianza)], info). Si accept(texto) es True, se detiene
+    sin probar más variantes (ahorra CPU en servidores pequeños)."""
     img = _load(path)
     info = {}
     # 1) orientación sobre la imagen completa
@@ -122,13 +123,15 @@ def ocr_receipt(path):
     bg = cv2.medianBlur(cv2.morphologyEx(gray, cv2.MORPH_CLOSE, np.ones((31, 31), np.uint8)), 21)
     _, flat = cv2.threshold(cv2.divide(gray, bg, scale=255), 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
     texts = []
-    for variant, im, psm in (("bin", bw, tesserocr.PSM.SINGLE_COLUMN),
-                             ("gris", gray, tesserocr.PSM.SINGLE_COLUMN),
-                             ("sombra", flat, tesserocr.PSM.SINGLE_COLUMN)):
+    for variant, im, psm in (("gris", gray, tesserocr.PSM.SINGLE_COLUMN),
+                             ("sombra", flat, tesserocr.PSM.SINGLE_COLUMN),
+                             ("bin", bw, tesserocr.PSM.SINGLE_COLUMN)):
         with tesserocr.PyTessBaseAPI(path=TESSDATA, lang="fra+eng", psm=psm) as api:
             api.SetVariable("preserve_interword_spaces", "1")
             api.SetImage(Image.fromarray(im))
             txt = api.GetUTF8Text()
             texts.append((variant, txt, api.MeanTextConf()))
+        if accept and accept(txt):
+            break
     info["variantes"] = [(v, c) for v, _, c in texts]
     return texts, info

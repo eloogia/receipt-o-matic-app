@@ -236,7 +236,10 @@ async def subir(request: Request, foto: UploadFile = File(...)):
 
 def process_receipt(uid, fname, path):
     try:
-        texts, info = ocr_receipt(path)
+        def cuadra(t):
+            p = parse(t)
+            return reconcile(p["items"], p["total"], p["tps"], p["tvq"])[2] == "Cuadra"
+        texts, info = ocr_receipt(path, accept=cuadra)
         parsed = [(parse(t), v, t) for v, t, _ in texts]
         best, variant, text = max(parsed, key=lambda x: score(x[0]))
     except Exception as e:  # nunca perder la foto aunque falle el OCR
